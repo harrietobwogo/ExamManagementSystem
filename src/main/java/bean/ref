@@ -1,0 +1,24 @@
+ public String getStudentByRegistrationNo(String registrationNumber){
+        RetrofitServiceInterface service = RetrofitServiceInstance.
+                getRetrofitInstance("http://192.168.10.105:8081/exammanagementsystem/")
+                .create(RetrofitServiceInterface.class);
+        Map<String, String> jsonParams = new HashMap<>();
+        //put something inside the map, could be null
+        jsonParams.put("registrationNumber", registrationNumber);
+        RequestBody body = RequestBody
+                .create(
+                        okhttp3.MediaType
+                                .parse("application/json; charset=utf-8"),
+                        (new Gson().toJson(jsonParams)));
+        //exam-api/students/findByRegistrationNumber
+        Call<String> call = service.findStudentByRegistrationNo(body);
+        try {
+            return call.execute().body();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+        String json =new Util().getStudentByRegistrationNo(registrationNo);
+            long id = new JsonParser().parse(json).getAsJsonObject().get("id").getAsLong();
