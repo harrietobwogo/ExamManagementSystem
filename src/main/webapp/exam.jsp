@@ -25,12 +25,11 @@
 </nav>
     <br><br><br>
     <div class="container">
-    <form action="/html/tags/html_form_tag_action.cfm">
+    <form action="exam-api/exam/add-exam">
         <div class="form-group row">
             <label for="exam-type" class="col-xs-3 col-form-label mr-2">Exam Type</label>
             <div class="col-xs-9">
-<%--                <input type="text" class="form-control" id="exam-type" name="exam-type">--%>
-                <select id="exam-type" class="form-control">
+                <select id="exam-type" class="form-control" required name="examType">
                     <option>Choose Exam Type</option>
                     <option>MAIN_EXAM</option>
                     <option>SUPPLEMENTARY_EXAM</option>

@@ -29,7 +29,7 @@
 </nav>
 <br><br><br>
 <div class="container">
-<form action="/html/tags/html_form_tag_action.cfm">
+<form action="exam-api/results/add-exam-result">
     <div class="form-group row">
         <label for="registration-number" class="col-xs-3 col-form-label mr-2">Registration Number</label>
         <div class="col-xs-9">

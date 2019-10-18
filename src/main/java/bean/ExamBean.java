@@ -5,6 +5,7 @@ import model.examsmodule.ExamType;
 import javax.annotation.PostConstruct;
 import javax.ejb.Local;
 import javax.ejb.Stateless;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,11 +31,14 @@ public class ExamBean extends Bean<Exam> implements ExamBeanI {
 
     @Override
     public List<Exam> findByExamType(String examType) {
-        ExamType exam=ExamType.valueOf(examType);
-        return this.entityManager
-                .createNamedQuery("NQ_EXAMS_FIND_BY_EXAM_TYPE")
-                .setParameter("examType", exam)
-                .getResultList();
+        ExamType exam = ExamType.valueOf(examType);
+
+        List<Exam> examList=this.entityManager
+                        .createNamedQuery("NQ_EXAMS_FIND_BY_EXAM_TYPE")
+                        .setParameter("examType", exam)
+                        .getResultList();
+
+    return examList.size()>0?examList:null;
     }
 
 

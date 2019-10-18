@@ -8,6 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a61d6fa3-4009-4b44-9e30-c406d9a9e1da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/ExamBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/ExamBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/exam-result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/exam-result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/exam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/exam.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/ExamBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/ExamBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exammanagementsystem.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/exammanagementsystem.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exammanagementsystem/WEB-INF/classes/bean/ExamBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/exammanagementsystem/WEB-INF/classes/bean/ExamBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exammanagementsystem/exam-result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/exammanagementsystem/exam-result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exammanagementsystem/exam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/exammanagementsystem/exam.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +75,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ideaprojects/com.mysql.jdbc_5.1.5.jar!/" />
@@ -241,7 +250,7 @@
       <workItem from="1571025262254" duration="5811000" />
       <workItem from="1571045316595" duration="68000" />
       <workItem from="1571109851955" duration="3083000" />
-      <workItem from="1571125039740" duration="41238000" />
+      <workItem from="1571125039740" duration="45246000" />
     </task>
     <servers />
   </component>
